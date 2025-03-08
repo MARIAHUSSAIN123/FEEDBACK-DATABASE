@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #171111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@ body {
     margin: 0;
     }
     .container {
-    background: white;
+    background: rgb(129, 186, 229);
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,8 +19,10 @@ input, select, textarea {
 width: 100%;
 padding: 10px;
 margin-bottom: 10px;
-border: 1px solid #91ef6c;
+border: 1px solid #63083a;
 border-radius: 4px;
+background-color: rgb(186, 132, 199);
+color: black;
 }
 #rating{
 width: 105%;
@@ -31,7 +33,7 @@ height: 100px;
 }
 button {
 padding: 10px 20px;
-background-color: #28a745;
+background-color: #530b3a;
 color: white;
 border: none;
 border-radius: 4px;
