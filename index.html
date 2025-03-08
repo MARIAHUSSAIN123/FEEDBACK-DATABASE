@@ -8,18 +8,30 @@
 </head>
 <body>
     <div class="container">
-        <h1>Feedback Form</h1>
+        <h1>Feedback Form 👨‍💻</h1>
         <form id="feedbackForm">
         <input type="text" id="name" placeholder="Your Name" required>
         <input type="email" id="email" placeholder="Your Email" required>
+        <input type="number" id="number" placeholder="number" required>
+        <select id="course" required>
+            <option value="" disabled selected>select your course</option>
+            <option value="1">1 - web designing 🌸</option>
+            <option value="2">2 - Al and data science ֎🇦🇮</option>
+            <option value="3">3 - python 🤖🧠🇦🇮👾</option>
+            <option value="4">4 - web and app development 👩🏻‍💻</option>
+            <option value="5">5 - programming 💻</option>
+            </select>
+        
         <select id="rating" required>
-        <option value="" disabled selected>Rate your experience</option>
-        <option value="1">1 - Poor</option>
-        <option value="2">2 - Fair</option>
-        <option value="3">3 - Good</option>
-        <option value="4">4 - Very Good</option>
-        <option value="5">5 - Excellent</option>
+        <option value="" disabled selected>Rate your experience with your mentor</option>
+        <option value="1">1 - Poor 👎🏻</option>
+        <option value="2">2 - Fair 🙆🏻‍♂️</option>
+        <option value="3">3 - Good 🥈</option>
+        <option value="4">4 - Very Good 👌🏻</option>
+        <option value="5">5 - Excellent 🏆</option>
         </select>
+
+        
         <textarea id="message" placeholder="Your Feedback" required></textarea>
         <button type="submit">Submit Feedback</button>
         </form>
